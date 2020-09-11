@@ -11,8 +11,8 @@ elif fish_record[15:17]=='乌龟':
 			print("是乌龟吗？是"+fish_record[15:17])
 elif fish_record[20:22]=='乌龟':
 			print("是乌龟吗？是"+fish_record[20:22])
-elif not fish_record[25:27]!='乌龟':
-			if int(fish_record[27])/2==0:
+elif not fish_record[25:27]!='乌龟':            #条件表达式包括逻辑运算符、比较运算符
+			if int(fish_record[27])/2==0:            #嵌套一个if...else...语句
 					print("找到乌龟了，是%d只，偶数"%(int(fish_record[27])))
 			else:
 					print("找到乌龟了，是%d只，奇数"%(int(fish_record[27])))
